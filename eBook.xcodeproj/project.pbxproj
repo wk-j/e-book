@@ -64,11 +64,10 @@
 		401D303E21955D5500DAF45E /* eBook */ = {
 			isa = PBXGroup;
 			children = (
+				5722F1F023230592009B0625 /* Files */,
 				5722F1EF2322E47B009B0625 /* About */,
-				57D7EC5A23225B3B005BB302 /* Thailand.pdf */,
 				401D305321955DE100DAF45E /* OutlineTableViewController.swift */,
 				401D305421955DE200DAF45E /* PDFViewController.swift */,
-				401D305221955DE100DAF45E /* swift.pdf */,
 				401D305121955DE000DAF45E /* ViewController.swift */,
 				401D303F21955D5500DAF45E /* AppDelegate.swift */,
 				401D304621955D5700DAF45E /* Assets.xcassets */,
@@ -85,6 +84,15 @@
 				5722F1ED2322E43E009B0625 /* AboutViewController.swift */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		5722F1F023230592009B0625 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D7EC5A23225B3B005BB302 /* Thailand.pdf */,
+				401D305221955DE100DAF45E /* swift.pdf */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +127,7 @@
 				TargetAttributes = {
 					401D303B21955D5500DAF45E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -311,7 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.eBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -329,7 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.eBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
