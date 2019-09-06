@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="eBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,13 +33,23 @@
                                     <action selector="openPdfPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Znt-ff-J3D"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SN6-wg-pZL">
+                                <rect key="frame" x="363" y="764" width="42" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="About">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <state key="normal" title="About"/>
+                                <variation key="heightClass=regular-widthClass=regular" insetsLayoutMarginsFromSafeArea="NO"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="SN6-wg-pZL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4RW-u5-OVP"/>
                             <constraint firstItem="n1Z-xe-d9G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BKF-9g-hgz"/>
                             <constraint firstItem="bGQ-S7-fhf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ny2-zS-qKI"/>
                             <constraint firstItem="n1Z-xe-d9G" firstAttribute="top" secondItem="bGQ-S7-fhf" secondAttribute="bottom" constant="48" id="cy2-Q8-l37"/>
                             <constraint firstItem="bGQ-S7-fhf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="e8C-Ji-rDn"/>
+                            <constraint firstItem="SN6-wg-pZL" firstAttribute="bottom" secondItem="n1Z-xe-d9G" secondAttribute="bottom" constant="30" id="nWD-6W-15A"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -49,6 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cover" width="757" height="946.5"/>
+        <image name="cover" width="1514" height="1893"/>
     </resources>
 </document>

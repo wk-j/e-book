@@ -19,5 +19,10 @@ class ViewController: UIViewController {
         let pdfViewController = PDFViewController(pdfUrl: path)
         present(pdfViewController, animated: true, completion: nil)
     }
+    
+    @IBAction func aboutPressed(_ sender: Any) {
+        let about = AbountViewController()
+        present(about, animated: true)
+    }
 }
 

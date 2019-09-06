@@ -15,6 +15,7 @@
 		401D305721955DE200DAF45E /* OutlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D305321955DE100DAF45E /* OutlineTableViewController.swift */; };
 		401D305821955DE200DAF45E /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D305421955DE200DAF45E /* PDFViewController.swift */; };
 		401D305A21955E4200DAF45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401D305921955E4200DAF45E /* Main.storyboard */; };
+		5722F1EE2322E43E009B0625 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722F1ED2322E43E009B0625 /* AboutViewController.swift */; };
 		57D7EC5B23225B3B005BB302 /* Thailand.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57D7EC5A23225B3B005BB302 /* Thailand.pdf */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		401D305321955DE100DAF45E /* OutlineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineTableViewController.swift; sourceTree = "<group>"; };
 		401D305421955DE200DAF45E /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 		401D305921955E4200DAF45E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5722F1ED2322E43E009B0625 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		57D7EC5A23225B3B005BB302 /* Thailand.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Thailand.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 		401D303E21955D5500DAF45E /* eBook */ = {
 			isa = PBXGroup;
 			children = (
+				5722F1EF2322E47B009B0625 /* About */,
 				57D7EC5A23225B3B005BB302 /* Thailand.pdf */,
 				401D305321955DE100DAF45E /* OutlineTableViewController.swift */,
 				401D305421955DE200DAF45E /* PDFViewController.swift */,
@@ -74,6 +77,14 @@
 				401D304B21955D5700DAF45E /* Info.plist */,
 			);
 			path = eBook;
+			sourceTree = "<group>";
+		};
+		5722F1EF2322E47B009B0625 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				5722F1ED2322E43E009B0625 /* AboutViewController.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				401D305521955DE200DAF45E /* ViewController.swift in Sources */,
 				401D304021955D5500DAF45E /* AppDelegate.swift in Sources */,
 				401D305721955DE200DAF45E /* OutlineTableViewController.swift in Sources */,
+				5722F1EE2322E43E009B0625 /* AboutViewController.swift in Sources */,
 				401D305821955DE200DAF45E /* PDFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
