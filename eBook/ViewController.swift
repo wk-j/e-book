@@ -11,11 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func openPdfPressed(_ sender: Any) {
-        guard let path = Bundle.main.url(forResource: "swift", withExtension: "pdf") else {
+        guard let path = Bundle.main.url(forResource: "Thailand", withExtension: "pdf") else {
             print("failed to unwrap fileURL")
             return
         }
-        
+
         let pdfViewController = PDFViewController(pdfUrl: path)
         present(pdfViewController, animated: true, completion: nil)
     }

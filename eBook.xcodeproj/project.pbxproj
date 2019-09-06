@@ -15,6 +15,7 @@
 		401D305721955DE200DAF45E /* OutlineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D305321955DE100DAF45E /* OutlineTableViewController.swift */; };
 		401D305821955DE200DAF45E /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D305421955DE200DAF45E /* PDFViewController.swift */; };
 		401D305A21955E4200DAF45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401D305921955E4200DAF45E /* Main.storyboard */; };
+		57D7EC5B23225B3B005BB302 /* Thailand.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57D7EC5A23225B3B005BB302 /* Thailand.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		401D305321955DE100DAF45E /* OutlineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineTableViewController.swift; sourceTree = "<group>"; };
 		401D305421955DE200DAF45E /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 		401D305921955E4200DAF45E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		57D7EC5A23225B3B005BB302 /* Thailand.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Thailand.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		401D303E21955D5500DAF45E /* eBook */ = {
 			isa = PBXGroup;
 			children = (
+				57D7EC5A23225B3B005BB302 /* Thailand.pdf */,
 				401D305321955DE100DAF45E /* OutlineTableViewController.swift */,
 				401D305421955DE200DAF45E /* PDFViewController.swift */,
 				401D305221955DE100DAF45E /* swift.pdf */,
@@ -134,6 +137,7 @@
 				401D304A21955D5700DAF45E /* LaunchScreen.storyboard in Resources */,
 				401D305621955DE200DAF45E /* swift.pdf in Resources */,
 				401D304721955D5700DAF45E /* Assets.xcassets in Resources */,
+				57D7EC5B23225B3B005BB302 /* Thailand.pdf in Resources */,
 				401D305A21955E4200DAF45E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ND2LGZT6B5;
+				DEVELOPMENT_TEAM = RCJ82V3582;
 				INFOPLIST_FILE = eBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ND2LGZT6B5;
+				DEVELOPMENT_TEAM = RCJ82V3582;
 				INFOPLIST_FILE = eBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
